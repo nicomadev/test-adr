@@ -1,6 +1,6 @@
 # Use Markdown Architectural Decision Records
 
-- Status: accepted
+- Status: 🟩 accepted
 - Date: 2023-06-02
 - Tags: doc
 
