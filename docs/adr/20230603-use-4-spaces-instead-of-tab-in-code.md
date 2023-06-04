@@ -1,6 +1,6 @@
 # Use 4 spaces instead of tab in code
 
-- Status: proposed
+- Status: 🟦 proposed
 - Deciders: Team A
 - Date: 2023-06-02
 - Tags: dummy, doc
