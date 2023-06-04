@@ -1,11 +1,11 @@
 # {short title of solved problem and solution}
 
-
 ![Proposed](https://img.shields.io/badge/status-proposed-blue.svg)
-![Accepted](https://img.shields.io/badge/status-accepted-brightgreen.svg)
+
+<!-- ![Accepted](https://img.shields.io/badge/status-accepted-brightgreen.svg)
 ![Rejected](https://img.shields.io/badge/status-rejected-red.svg)
 ![Deprecated](https://img.shields.io/badge/status-deprecated-lightgrey.svg)
-[![Superseded by ADR-0005](https://img.shields.io/badge/status-superseded%20by%20ADR--0005-orange.svg)](0005-example.md)
+[![Superseded by ADR-0005](https://img.shields.io/badge/status-superseded%20by%20ADR--0005-orange.svg)](0005-example.md) -->
 
 Date : yyyy-mm-dd
 
