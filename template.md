@@ -1,16 +1,18 @@
 # {short title of solved problem and solution}
 
-![Draft](https://img.shields.io/badge/status-draft-fff.svg)
+![2023-06-07](https://img.shields.io/badge/date-2023--06--07-fff?style=flat-square)
+![Draft](https://img.shields.io/badge/status-draft-lightgrey?style=flat-square)
 
 <!--
-![Proposed](https://img.shields.io/badge/status-proposed-blue.svg)
-![Accepted](https://img.shields.io/badge/status-accepted-brightgreen.svg)
-![Rejected](https://img.shields.io/badge/status-rejected-red.svg)
-![Deprecated](https://img.shields.io/badge/status-deprecated-lightgrey.svg)
-[![Superseded by ADR-0005](https://img.shields.io/badge/status-superseded%20by%20ADR--0005-orange.svg)](0005-example.md)
--->
 
-Date : yyyy-mm-dd
+![Draft](https://img.shields.io/badge/status-draft-lightgrey?style=flat-square)
+![Proposed](https://img.shields.io/badge/status-proposed-blue?style=flat-square)
+![Accepted](https://img.shields.io/badge/status-accepted-brightgreen?style=flat-square)
+![Rejected](https://img.shields.io/badge/status-rejected-red?style=flat-square)
+![Deprecated](https://img.shields.io/badge/status-deprecated-orange?style=flat-square)
+[![Superseded by ADR-aaaa](https://img.shields.io/badge/status-superseded%20by%20ADR--aaaa-yellow?style=flat-square)](aaaa-example.md)
+
+-->
 
 Deciders : ...
 
