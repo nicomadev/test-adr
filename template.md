@@ -1,6 +1,6 @@
 # {short title of solved problem and solution}
 
-![2023-06-07](https://img.shields.io/badge/date-2023--06--07-fff?style=flat-square)
+![2023-06-07](https://img.shields.io/badge/date-2023--06--07-F5F5DC?style=flat-square)
 ![Draft](https://img.shields.io/badge/status-draft-lightgrey?style=flat-square)
 
 <!--
