@@ -16,7 +16,7 @@
 
 Deciders: [Nicolas Maurice](https://github.com/nicomadev) (team member)
 
-## Context and Problem Statement
+## Context
 
 Regarding important choices impacting our software development, we want to:
 
@@ -27,8 +27,7 @@ Regarding important choices impacting our software development, we want to:
 
 NB: the company requires us to use GitHub as our versioning tools, so this ADR falls within this framework.
 
-<!-- This is an optional element. Feel free to remove. -->
-## Decision Drivers
+### Criteria
 
 - Ease of use
   - Very low learning curve
@@ -38,18 +37,7 @@ NB: the company requires us to use GitHub as our versioning tools, so this ADR f
 - Tool/platform/service actively maintained
 - Can be private
 
-## Considered Options
-
-- GitBook
-- Plain markdown files in a GitHub repository
-- Markdown files in a Jekyll site hosted in GitHub Pages
-
-Some options were outright excluded:
-
-- Confluence and similar tools because they are vendor dependent
-- GitHub wiki because of the missing versioning feature
-
-## Options comparison
+### Considered Options
 
 - GitBook
   - Nice look and feel (navigation side bar, colors)
@@ -64,15 +52,26 @@ Some options were outright excluded:
   - Requires GitHub action to publish
   - Requires Ruby to test locally
 
-## Decision Outcome
+Some options were outright excluded:
 
-Chosen option: "plain markdown files in a GitHub repository", because:
+- Confluence and similar tools because they are vendor dependent
+- GitHub wiki because of the missing versioning feature
+
+## Decision
+
+We will use plain markdown files in a GitHub repository, because:
 
 - it meets our needs
 - it is still very usable even without a nice look and feel
 - it has no additional cost
 - it does not create unwanted complexity (e.g. having to manage deployment scripts)
 
-## More Information
+## Consequences
+
+A GitHub repository is created at <https://github.com/nicomadev/test-adr>
 
 A more advanced tool may be needed in a mid-term or long-term future if the number of ADRs grows very large.
+
+## More information
+
+N/A
