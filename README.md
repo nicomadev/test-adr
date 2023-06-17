@@ -4,6 +4,17 @@ This directory contains decision records for {project name}.
 
 For new ADRs, use [template.md](template.md) as basis.
 
+## Writing guidelines
+
+- Prioritize topics based on their architectural significance
+- Be clear, direct, concise, explicit, and specific
+- Give objective justifications
+- Document relevant short, mid and long term consequences
+- Avoid "dummy" options (generally something like "we could build our own database" or "we could create our own new programming language")
+- Think broader than the immediate context, take into account operational and business impact
+- Dont't use ADRs as technical documentation
+- Don't create ADRs for pseudo-problems that doesn't really exist
+
 ## Statuses
 
 ```mermaid

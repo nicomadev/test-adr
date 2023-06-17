@@ -72,3 +72,7 @@ Chosen option: "plain markdown files in a GitHub repository", because:
 - it is still very usable even without a nice look and feel
 - it has no additional cost
 - it does not create unwanted complexity (e.g. having to manage deployment scripts)
+
+## More Information
+
+A more advanced tool may be needed in a mid-term or long-term future if the number of ADRs grows very large.
