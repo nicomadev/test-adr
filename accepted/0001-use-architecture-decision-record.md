@@ -1,4 +1,4 @@
-# [0001] Use an Architecture Decision Record (ADR) of plain markdown files in a repository
+# Use an Architecture Decision Record (ADR) of plain markdown files in a repository
 
 ![2023-06-17](https://img.shields.io/badge/date-2023--06--17-F5F5DC?style=flat-square)
 ![Accepted](https://img.shields.io/badge/status-accepted-brightgreen?style=flat-square)
