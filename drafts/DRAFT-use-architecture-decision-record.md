@@ -1,6 +1,6 @@
-# {short title of solved problem and solution}
+# Use an Architecture Decision Record (ADR) of plain markdown files in a repository
 
-![2023-06-07](https://img.shields.io/badge/date-2023--06--07-F5F5DC?style=flat-square)
+![2023-06-16](https://img.shields.io/badge/date-2023--06--16-F5F5DC?style=flat-square)
 ![Draft](https://img.shields.io/badge/status-draft-lightgrey?style=flat-square)
 
 <!--
@@ -14,30 +14,43 @@
 
 -->
 
-Deciders : ...
+Deciders : [Nicolas Maurice](https://github.com/nicomadev) (team member)
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story.
- You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+Regarding important choices impacting our software developement, we want to :
+
+1. Induce team members to really think about them
+2. Keep track of past decisions and why they were made to :
+   - Remember why decisions were made considering the available options at the time and easily assess if they are still relevant
+   - Provide information to new team members that were not involved in past decisions
+
+NB: the company requires us to use GitHub as our versioning tools, so this ADR falls within this framework
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
-- {decision driver 1, e.g., a force, facing concern, …}
-- {decision driver 2, e.g., a force, facing concern, …}
-- … <!-- numbers of drivers can vary -->
+- Ease of use
+  - Very low learning curve
+  - Easy to write, maintain and read
+- Vendor independence
+- Versionning
+- Tool/platform/service actively maintained
 
 ## Considered Options
 
-- {title of option 1}
-- {title of option 2}
-- {title of option 3}
-- … <!-- numbers of options can vary -->
+- GitBook
+- Plain markdown files in a GitHub repository
+- Markdown files in a Jekyll site, hosted in GitHub Pages
+
+Some options were outright excluded :
+
+- Confluence and similar tools because they are vendor dependant
+- GitHub wiki because of the missing versionning feature
 
 ## Options comparison
 
-{comparison table | examples | descriptions | pointer to more information | …}
+| Option | Pricing | ... |
 
 ## Decision Outcome
 
