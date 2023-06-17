@@ -14,7 +14,7 @@
 
 -->
 
-Deciders : ...
+Deciders: ...
 
 ## Context and Problem Statement
 

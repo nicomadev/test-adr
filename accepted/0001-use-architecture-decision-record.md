@@ -14,18 +14,18 @@
 
 -->
 
-Deciders : [Nicolas Maurice](https://github.com/nicomadev) (team member)
+Deciders: [Nicolas Maurice](https://github.com/nicomadev) (team member)
 
 ## Context and Problem Statement
 
-Regarding important choices impacting our software developement, we want to :
+Regarding important choices impacting our software development, we want to:
 
 1. Induce team members to really think about them
-2. Keep track of past decisions and why they were made to :
+2. Keep track of past decisions and why they were made to:
    - Remember why decisions were made considering the available options at the time and easily assess if they are still relevant
    - Provide information to new team members that were not involved in past decisions
 
-NB: the company requires us to use GitHub as our versioning tools, so this ADR falls within this framework
+NB: the company requires us to use GitHub as our versioning tools, so this ADR falls within this framework.
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
@@ -34,7 +34,7 @@ NB: the company requires us to use GitHub as our versioning tools, so this ADR f
   - Very low learning curve
   - Easy to write, maintain and read
 - Vendor independence
-- Versionning
+- Versioning
 - Tool/platform/service actively maintained
 - Can be private
 
@@ -42,12 +42,12 @@ NB: the company requires us to use GitHub as our versioning tools, so this ADR f
 
 - GitBook
 - Plain markdown files in a GitHub repository
-- Markdown files in a Jekyll site, hosted in GitHub Pages
+- Markdown files in a Jekyll site hosted in GitHub Pages
 
-Some options were outright excluded :
+Some options were outright excluded:
 
-- Confluence and similar tools because they are vendor dependant
-- GitHub wiki because of the missing versionning feature
+- Confluence and similar tools because they are vendor dependent
+- GitHub wiki because of the missing versioning feature
 
 ## Options comparison
 
@@ -58,7 +58,7 @@ Some options were outright excluded :
 - Plain markdown files in a GitHub repository
   - No additional cost
   - Basic navigation sidebar in GitHub code tab
-- Markdown files in a Jekyll site, hosted in GitHub Pages
+- Markdown files in a Jekyll site hosted in GitHub Pages
   - Nice look and feel (customizable theme)
   - No additional cost
   - Requires GitHub action to publish
@@ -68,7 +68,7 @@ Some options were outright excluded :
 
 Chosen option: "plain markdown files in a GitHub repository", because:
 
-- it is meets our needs
+- it meets our needs
 - it is still very usable even without a nice look and feel
 - it has no additional cost
 - it does not create unwanted complexity (e.g. having to manage deployment scripts)
