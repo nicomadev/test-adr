@@ -15,6 +15,22 @@ graph TD
   C -.-> F(Superseded)
 ```
 
+## Workflow
+
+To add a new record :
+
+1. Create a new branch from `main` branch named `draft/a-short-title`
+2. Create a new file in the `proposed` directory, prefixed with `DRAFT` while its writing is not done
+3. When ready
+   - change the badge to `proposed`
+   - replace `DRAFT` with a number in the file name
+   - update the date badge to today if needed
+   - merge the draft branch into the `proposed` branch
+4. Review all the proposed records and
+   - move them to the `accepted` or `rejected` directories, changing badges accordingly
+   - update the date badge to today if needed
+   - merge the `proposed` branch into the `main` branch
+
 ## Naming conventions
 
 ## File name

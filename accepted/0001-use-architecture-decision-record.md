@@ -1,7 +1,7 @@
-# Use an Architecture Decision Record (ADR) of plain markdown files in a repository
+# [0001] Use an Architecture Decision Record (ADR) of plain markdown files in a repository
 
-![2023-06-16](https://img.shields.io/badge/date-2023--06--16-F5F5DC?style=flat-square)
-![Draft](https://img.shields.io/badge/status-draft-lightgrey?style=flat-square)
+![2023-06-17](https://img.shields.io/badge/date-2023--06--17-F5F5DC?style=flat-square)
+![Accepted](https://img.shields.io/badge/status-accepted-brightgreen?style=flat-square)
 
 <!--
 
@@ -36,6 +36,7 @@ NB: the company requires us to use GitHub as our versioning tools, so this ADR f
 - Vendor independence
 - Versionning
 - Tool/platform/service actively maintained
+- Can be private
 
 ## Considered Options
 
@@ -50,30 +51,24 @@ Some options were outright excluded :
 
 ## Options comparison
 
-| Option | Pricing | ... |
+- GitBook
+  - Nice look and feel (navigation side bar, colors)
+  - Can sync with GitHub repo to edit locally
+  - Additional cost of $6.70/user/month
+- Plain markdown files in a GitHub repository
+  - No additional cost
+  - Basic navigation sidebar in GitHub code tab
+- Markdown files in a Jekyll site, hosted in GitHub Pages
+  - Nice look and feel (customizable theme)
+  - No additional cost
+  - Requires GitHub action to publish
+  - Requires Ruby to test locally
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because
-{justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "plain markdown files in a GitHub repository", because:
 
-<!-- This is an optional element. Feel free to remove. -->
-## Consequences
-
-- Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-- Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-- … <!-- numbers of consequences can vary -->
-
-<!-- This is an optional element. Feel free to remove. -->
-## Validation
-
-{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
-
-<!-- This is an optional element. Feel free to remove. -->
-## More Information
-
-{You might want to provide additional evidence/confidence for the decision outcome here and/or
- document the team agreement on the decision and/or
- define when and how this decision should be realized and if/when it should be re-visited and/or
- how the decision is validated.
- Links to other decisions and resources might appear here as well.}
+- it is meets our needs
+- it is still very usable even without a nice look and feel
+- it has no additional cost
+- it does not create unwanted complexity (e.g. having to manage deployment scripts)
