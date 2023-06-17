@@ -35,3 +35,9 @@ The policy is created at <https://link-to-the-policy> and shared to the team.
 ## More information
 
 The policy can evolve without needing a new ADR.
+
+Further reading:
+
+- [Attackers are starting to target .NET developers with malicious-code NuGet packages](https://jfrog.com/blog/attackers-are-starting-to-target-net-developers-with-malicious-code-nuget-packages/)
+- [How to Avoid Costly Lawsuits from Unexpected NuGet License Agreements](https://blog.inedo.com/nuget/how-to-avoid-costly-lawsuits-from-unexpected-nuget-license-agreements/)
+- [How to Create a Package Approval Workflow for NuGet](https://blog.inedo.com/nuget/package-approval-workflow/)
